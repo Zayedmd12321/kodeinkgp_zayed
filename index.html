@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="shortcut icon" href="/img/logo.png" type="image/x-icon">
+    <title>KodeinKGP</title>
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="/img/logo.png" alt="KodeinKGP">
+                <span>KodeinKGP</span>
+            </div>
+            <div id="link">
+            <ul>
+                <li class="item"><a href="index.html">Home</a></li>
+                <li class="item"><a href="team.html">Teams</a></li>
+                <li class="item"><a href="article.html">Articles</a></li>
+            </ul>
+        </div>
+        <a href="javascript:void(0);" class="icon" onclick="hamberger()">
+            <i class="fa fa-bars"></i>
+        </a>
+        
+        </nav>
+    </header>
+    <div id="home">
+        <div id="home_content1">
+            <h1 class="primary_heading">Welcome To KodeinKGP</h1>
+            <p>A student-run society that aims to spread awareness and educate students about the potential of Web 3.0
+                and future technologies</p>
+            <a href="#home_content2">Learn More</a>
+        </div>
+        <div id="home_content2">
+            <div class="container">
+                <div class="heading">
+                    <h1 class="primary_heading text_center">K</h1><span><img src="/img/logo.png" alt="o"></span>
+                    <h1 class="primary_heading text_center">deinKGP</h1>
+                </div>
+                <p class="text_center">A student-run society that aims to spread awareness and educate students about
+                    the potential of Web 3.0 and future technologies.We host workshops and hackathons to give students
+                    hands-on experience with Blockchain Development and Artificial Intelligence.<br>
+                    Additionally, we use our skills in web development and blockchain to work on real-world problems
+                    faced by the student community at IIT Kharagpur and beyond. By joining KodeinKGP, students can gain
+                    valuable technical skills and contribute to solving important problems while learning about one of
+                    the most exciting and rapidly-evolving technologies of our time.</p>
+            </div>
+            <div class="container2">
+                <div class="box">
+                    <img src="/img/webd.webp" alt="">
+                    <h2 class="sec_heading text_center">Web</h2>
+                    <p class="text_center">Weave your digital aspirations into reality through our dynamic Web solutions, fusing creativity with functionality.</p>
+                </div>
+                <div class="box">
+                    <img src="/img/metaverse.jpeg" alt="">
+                    <h2 class="sec_heading text_center">AI & Metaverse</h2>
+                    <p class="text_center">Enter a realm where AI drives immersive Metaverse encounters, pushing boundaries of what's possible.</p>
+                </div>
+                <div class="box">
+                    <img src="/img/blockchain.webp" alt="">
+                    <h2 class="sec_heading text_center">Blockchain</h2>
+                    <p class="text_center">Transform transactions with our secure Blockchain solutions, rewriting the rules of trust and transparency.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+    <footer>
+            <img src="/img/logo.png" alt="">
+            <h1>KodeinKGP</h1>
+            <span>Indian Institute Of Technology</span>
+            <span>Kharagpur</span>
+            <span>West Bengal 721302</span>
+            <div class="icons">
+            <span><a href="https://www.facebook.com/kodeinkgp?mibextid=ZbWKwL" target="_blank"><img src="/img/facebook.webp" alt=""></a></span>
+            <span><a href="https://www.instagram.com/kodeinkgp_iitkgp/?igsh=cmhyMXM3YTA5YzZm" target="_blank"><img src="/img/insta.webp" alt=""></a></span>
+            <span><a href="https://www.linkedin.com/company/kodeinkgp/" target="_blank"><img src="/img/linkedin.webp" alt=""></a></span>
+            </div>
+        </div>
+    </footer>
+    <script>
+    function hamberger() {
+        var x = document.getElementById("link");
+        if (x.style.display === "flex") 
+          x.style.display = "none";
+        else 
+          x.style.display = "flex";  
+      }
+      </script>
+</body>
+
+</html>
