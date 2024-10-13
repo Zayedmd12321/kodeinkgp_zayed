@@ -33,7 +33,7 @@
         
         </nav>
     </header>
-
+<div class="myarticle">
     <div id="home_content1">
         <h1 class="primary_heading">Our Articles</h1>
         <p><strong>Gateway to AI, Web Dev, and BlockchainYour Gateway to AI, Web Dev, and Blockchain</strong></p>
@@ -119,8 +119,10 @@
         </div>
     </div>
 </div>
-<hr>
+</div>
+
     <footer>
+        <hr>
         <img src="img/logo.png" alt="">
         <h1>KodeinKGP</h1>
         <span>Indian Institute Of Technology</span>
@@ -136,10 +138,16 @@
 <script>
 function myFunction() {
     var x = document.getElementById("link");
-    if (x.style.display === "flex") 
+    if (x.style.display === "flex") {
+        document.querySelector('footer').style.opacity=1;
+            document.getElementById("myarticle").style.opacity=1;
       x.style.display = "none";
-    else 
-      x.style.display = "flex";  
+    }
+    else {
+      x.style.display = "flex";
+        document.querySelector('footer').style.opacity=0.2;
+            document.getElementById("myarticle").style.opacity=0.2;
+    }
   }
   </script>
 </body>
