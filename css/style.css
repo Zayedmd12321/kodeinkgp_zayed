@@ -341,6 +341,7 @@ p {
     border-radius: 15px;
     margin: 5px;
     height: 420px;
+    width: 331px;
     background-color: rgba(54, 54, 54, .4);
     overflow: hidden;
 }
