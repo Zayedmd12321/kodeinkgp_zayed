@@ -35,6 +35,7 @@
 
         </nav>
     </header>
+    <div class="myteam">
     <h1 class="primary_heading text_center">Heads</h1>
     <div id="EH">
         <div class="member">
@@ -985,6 +986,7 @@
 
 
     </div>
+    </div>
 
         <hr>
         <footer>
@@ -1016,10 +1018,16 @@
             var d=document.getElementById("d");
         function hamberger() {
             var x = document.getElementById("link");
-            if (x.style.display === "flex")
+            if (x.style.display === "flex"){
                 x.style.display = "none";
-            else
+                document.querySelector('footer').style.opacity=1;
+            document.getElementById("myteam").style.opacity=1;
+            }
+            else{
                 x.style.display = "flex";
+            document.querySelector('footer').style.opacity=0.2;
+            document.getElementById("myteam").style.opacity=0.2;
+            }
         }
         function buttont(){
             t.style.backgroundColor = "#11e3fb";
