@@ -90,12 +90,19 @@
         </div>
     </footer>
     <script>
+        
     function hamberger() {
         var x = document.getElementById("link");
-        if (x.style.display === "flex") 
+        var home=document.getElementById("home");
+        if (x.style.display === "flex") {
+            home.style.opacity=1;
           x.style.display = "none";
-        else 
-          x.style.display = "flex";  
+        }
+        else {
+        home.style.opacity=0.2;
+          x.style.display = "flex"; 
+        }
+        
       }
       </script>
 </body>
