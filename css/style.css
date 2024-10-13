@@ -100,7 +100,7 @@ p {
 #navbar ul li {
     list-style: none;
     font-size: 1.16rem;
-    margin: 20px auto;
+    margin: 20px;
 }
 
 #navbar ul li a {
@@ -130,6 +130,10 @@ p {
         flex-direction: column;
          position: absolute;
         right: 0px;
+    }
+
+    #navbar ul li{
+    margin: 20px auto
     }
 
     .icon {
